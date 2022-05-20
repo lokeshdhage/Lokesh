@@ -1,4 +1,4 @@
-package Pro;
+package PopUp;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class PopUp {
+public class AlertPopUp {
 	
 	public static void main(String [] args)
 	{
@@ -20,14 +20,13 @@ public class PopUp {
 	    
 	    submit.click();
 	    
-	    Alert al = driver.switchTo().alert();
-	    
-	    String text = al.getText();
-	    System.out.println(text);
-	    
-	     al.accept(); // to click on OK, YES, Continue, Accept. Submit
-	    // Alert al1 = driver.switchTo().alert();
-	     //al1.accept();
+	    Alert al = driver.switchTo().alert(); 
+//	    String text = al.getText();
+//	    System.out.println(text);
+	    al.accept(); // to click on OK, YES, Continue, Accept. Submit
+	     
+	    Alert al1 = driver.switchTo().alert();
+	    al1.accept();
 	  
 //	    al.dismiss(); // to click on No, Cancel, Dismiss
 //	    al.getText(); // to get text present on alert popup
