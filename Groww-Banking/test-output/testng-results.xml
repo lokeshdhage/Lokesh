@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-26T04:54:03 IST" name="Primeabgb" finished-at="2022-05-26T04:55:29 IST" duration-ms="85312">
+    <groups>
+    </groups>
+    <test started-at="2022-05-26T04:54:03 IST" name="Testabgb1" finished-at="2022-05-26T04:54:45 IST" duration-ms="41069">
+      <class name="pack123.TestNext">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:pack123.TestNext@156b88f5]" started-at="2022-05-26T04:54:05 IST" name="launchBrowser" finished-at="2022-05-26T04:54:07 IST" duration-ms="1418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObjectOfPomClasses()[pri:0, instance:pack123.TestNext@156b88f5]" started-at="2022-05-26T04:54:07 IST" name="createObjectOfPomClasses" finished-at="2022-05-26T04:54:07 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjectOfPomClasses -->
+        <test-method is-config="true" signature="loginToApplica()[pri:0, instance:pack123.TestNext@156b88f5]" started-at="2022-05-26T04:54:07 IST" name="loginToApplica" finished-at="2022-05-26T04:54:18 IST" duration-ms="10846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplica -->
+        <test-method signature="verifyAddresses()[pri:0, instance:pack123.TestNext@156b88f5]" started-at="2022-05-26T04:54:18 IST" name="verifyAddresses" finished-at="2022-05-26T04:54:22 IST" duration-ms="3906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddresses -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:pack123.TestNext@156b88f5]" started-at="2022-05-26T04:54:22 IST" name="Logout" finished-at="2022-05-26T04:54:24 IST" duration-ms="2842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToApplica()[pri:0, instance:pack123.TestNext@156b88f5]" started-at="2022-05-26T04:54:24 IST" name="loginToApplica" finished-at="2022-05-26T04:54:33 IST" duration-ms="8768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplica -->
+        <test-method signature="verifyDownload()[pri:0, instance:pack123.TestNext@156b88f5]" started-at="2022-05-26T04:54:33 IST" name="verifyDownload" finished-at="2022-05-26T04:54:37 IST" duration-ms="3899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDownload -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:pack123.TestNext@156b88f5]" started-at="2022-05-26T04:54:37 IST" name="Logout" finished-at="2022-05-26T04:54:42 IST" duration-ms="5420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:pack123.TestNext@156b88f5]" started-at="2022-05-26T04:54:42 IST" name="closeBrowser" finished-at="2022-05-26T04:54:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:pack123.TestNext@156b88f5]" started-at="2022-05-26T04:54:44 IST" name="closedBrowser" finished-at="2022-05-26T04:54:45 IST" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- pack123.TestNext -->
+      <class name="pack123.TestNGpom">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:pack123.TestNGpom@2a54a73f]" started-at="2022-05-26T04:54:03 IST" name="launchBrowser" finished-at="2022-05-26T04:54:05 IST" duration-ms="1828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObjectOfPomClasses()[pri:0, instance:pack123.TestNGpom@2a54a73f]" started-at="2022-05-26T04:54:07 IST" name="createObjectOfPomClasses" finished-at="2022-05-26T04:54:07 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjectOfPomClasses -->
+        <test-method is-config="true" signature="loginToApplica()[pri:0, instance:pack123.TestNGpom@2a54a73f]" started-at="2022-05-26T04:54:07 IST" name="loginToApplica" finished-at="2022-05-26T04:54:17 IST" duration-ms="10721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplica -->
+        <test-method signature="verifyDashBoard()[pri:0, instance:pack123.TestNGpom@2a54a73f]" started-at="2022-05-26T04:54:17 IST" name="verifyDashBoard" finished-at="2022-05-26T04:54:20 IST" duration-ms="2430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashBoard -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:pack123.TestNGpom@2a54a73f]" started-at="2022-05-26T04:54:20 IST" name="Logout" finished-at="2022-05-26T04:54:25 IST" duration-ms="4669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToApplica()[pri:0, instance:pack123.TestNGpom@2a54a73f]" started-at="2022-05-26T04:54:25 IST" name="loginToApplica" finished-at="2022-05-26T04:54:34 IST" duration-ms="9255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplica -->
+        <test-method signature="verifyOrder()[pri:0, instance:pack123.TestNGpom@2a54a73f]" started-at="2022-05-26T04:54:34 IST" name="verifyOrder" finished-at="2022-05-26T04:54:38 IST" duration-ms="4188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrder -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:pack123.TestNGpom@2a54a73f]" started-at="2022-05-26T04:54:38 IST" name="Logout" finished-at="2022-05-26T04:54:43 IST" duration-ms="5183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:pack123.TestNGpom@2a54a73f]" started-at="2022-05-26T04:54:43 IST" name="closeBrowser" finished-at="2022-05-26T04:54:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:pack123.TestNGpom@2a54a73f]" started-at="2022-05-26T04:54:43 IST" name="closedBrowser" finished-at="2022-05-26T04:54:44 IST" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- pack123.TestNGpom -->
+    </test> <!-- Testabgb1 -->
+    <test started-at="2022-05-26T04:54:45 IST" name="Testabgb2" finished-at="2022-05-26T04:55:29 IST" duration-ms="44175">
+      <class name="pack123.TestNext">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:pack123.TestNext@5a56cdac]" started-at="2022-05-26T04:54:48 IST" name="launchBrowser" finished-at="2022-05-26T04:54:51 IST" duration-ms="3235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObjectOfPomClasses()[pri:0, instance:pack123.TestNext@5a56cdac]" started-at="2022-05-26T04:54:51 IST" name="createObjectOfPomClasses" finished-at="2022-05-26T04:54:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjectOfPomClasses -->
+        <test-method is-config="true" signature="loginToApplica()[pri:0, instance:pack123.TestNext@5a56cdac]" started-at="2022-05-26T04:54:51 IST" name="loginToApplica" finished-at="2022-05-26T04:55:02 IST" duration-ms="10451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplica -->
+        <test-method signature="verifyAddresses()[pri:0, instance:pack123.TestNext@5a56cdac]" started-at="2022-05-26T04:55:02 IST" name="verifyAddresses" finished-at="2022-05-26T04:55:05 IST" duration-ms="3619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddresses -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:pack123.TestNext@5a56cdac]" started-at="2022-05-26T04:55:05 IST" name="Logout" finished-at="2022-05-26T04:55:10 IST" duration-ms="4515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToApplica()[pri:0, instance:pack123.TestNext@5a56cdac]" started-at="2022-05-26T04:55:10 IST" name="loginToApplica" finished-at="2022-05-26T04:55:18 IST" duration-ms="8403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplica -->
+        <test-method signature="verifyDownload()[pri:0, instance:pack123.TestNext@5a56cdac]" started-at="2022-05-26T04:55:18 IST" name="verifyDownload" finished-at="2022-05-26T04:55:21 IST" duration-ms="2757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDownload -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:pack123.TestNext@5a56cdac]" started-at="2022-05-26T04:55:21 IST" name="Logout" finished-at="2022-05-26T04:55:26 IST" duration-ms="4915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:pack123.TestNext@5a56cdac]" started-at="2022-05-26T04:55:26 IST" name="closeBrowser" finished-at="2022-05-26T04:55:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:pack123.TestNext@5a56cdac]" started-at="2022-05-26T04:55:28 IST" name="closedBrowser" finished-at="2022-05-26T04:55:29 IST" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- pack123.TestNext -->
+      <class name="pack123.TestNGpom">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:pack123.TestNGpom@1de76cc7]" started-at="2022-05-26T04:54:45 IST" name="launchBrowser" finished-at="2022-05-26T04:54:48 IST" duration-ms="3265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObjectOfPomClasses()[pri:0, instance:pack123.TestNGpom@1de76cc7]" started-at="2022-05-26T04:54:51 IST" name="createObjectOfPomClasses" finished-at="2022-05-26T04:54:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjectOfPomClasses -->
+        <test-method is-config="true" signature="loginToApplica()[pri:0, instance:pack123.TestNGpom@1de76cc7]" started-at="2022-05-26T04:54:51 IST" name="loginToApplica" finished-at="2022-05-26T04:55:03 IST" duration-ms="11426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplica -->
+        <test-method signature="verifyDashBoard()[pri:0, instance:pack123.TestNGpom@1de76cc7]" started-at="2022-05-26T04:55:03 IST" name="verifyDashBoard" finished-at="2022-05-26T04:55:05 IST" duration-ms="2826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashBoard -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:pack123.TestNGpom@1de76cc7]" started-at="2022-05-26T04:55:05 IST" name="Logout" finished-at="2022-05-26T04:55:10 IST" duration-ms="4761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToApplica()[pri:0, instance:pack123.TestNGpom@1de76cc7]" started-at="2022-05-26T04:55:10 IST" name="loginToApplica" finished-at="2022-05-26T04:55:20 IST" duration-ms="10182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplica -->
+        <test-method signature="verifyOrder()[pri:0, instance:pack123.TestNGpom@1de76cc7]" started-at="2022-05-26T04:55:20 IST" name="verifyOrder" finished-at="2022-05-26T04:55:24 IST" duration-ms="3352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrder -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:pack123.TestNGpom@1de76cc7]" started-at="2022-05-26T04:55:24 IST" name="Logout" finished-at="2022-05-26T04:55:27 IST" duration-ms="3540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:pack123.TestNGpom@1de76cc7]" started-at="2022-05-26T04:55:27 IST" name="closedBrowser" finished-at="2022-05-26T04:55:28 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:pack123.TestNGpom@1de76cc7]" started-at="2022-05-26T04:55:27 IST" name="closeBrowser" finished-at="2022-05-26T04:55:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- pack123.TestNGpom -->
+    </test> <!-- Testabgb2 -->
+  </suite> <!-- Primeabgb -->
+</testng-results>

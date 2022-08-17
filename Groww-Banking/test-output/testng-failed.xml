@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Primeabgb]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Testabgb1(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="pack123.TestNext">
+        <methods>
+          <include name="verifyAddresses"/>
+          <include name="Logout"/>
+          <include name="closedBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createObjectOfPomClasses"/>
+          <include name="launchBrowser"/>
+          <include name="verifyDownload"/>
+          <include name="loginToApplica"/>
+        </methods>
+      </class> <!-- pack123.TestNext -->
+    </classes>
+  </test> <!-- Testabgb1(failed) -->
+  <test thread-count="2" parallel="classes" name="Testabgb2(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="pack123.TestNext">
+        <methods>
+          <include name="verifyAddresses"/>
+          <include name="Logout"/>
+          <include name="closedBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createObjectOfPomClasses"/>
+          <include name="launchBrowser"/>
+          <include name="verifyDownload"/>
+          <include name="loginToApplica"/>
+        </methods>
+      </class> <!-- pack123.TestNext -->
+    </classes>
+  </test> <!-- Testabgb2(failed) -->
+</suite> <!-- Failed suite [Primeabgb] -->
