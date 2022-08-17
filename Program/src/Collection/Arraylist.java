@@ -22,7 +22,7 @@ public class Arraylist {
 		}
 		
 		a.remove(1);
-		a.add(0,"lok");
+		a.add(2,"lok");
 		System.out.println("");
 		
 		for(int i = 0; i < a.size(); i++)

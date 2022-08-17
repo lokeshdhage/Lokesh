@@ -9,32 +9,19 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelSheet {
 	
-	static String data;
-	
 	public static void main(String[] args) throws EncryptedDocumentException, IOException  {
+		
 		
 		FileInputStream file = new FileInputStream("C:\\Users\\rocks\\Downloads\\excel sheet.xlsx");
 		
-		try 
-		{
-			data = WorkbookFactory.create(file).getSheet("LOKESH").getRow(0).getCell(4).getStringCellValue();
-		}
+		// String data = WorkbookFactory.create(file).getSheet("LOKESH").getRow(0).getCell(3).getStringCellValue();
+	
 		
-		catch(IllegalStateException e)
-		{
-		   double d = WorkbookFactory.create(file).getSheet("LOKESH").getRow(0).getCell(4).getNumericCellValue();
-		   String s = String.valueOf(d);
-		   
-		   data = s;
-		  
-		   
-		   
-		   
-		}
+		 double d = WorkbookFactory.create(file).getSheet("LOKESH").getRow(0).getCell(4).getNumericCellValue();
 		
 			
 		
-		System.out.println(data);
+	      System.out.println(d);
 		
 		
 		

@@ -15,7 +15,8 @@ public class Brokenlink {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		
-		List<WebElement> list = driver.findElements(By.xpath("//a"));  
+		List<WebElement> list = driver.findElements(By.xpath("//a")); 
+		// WebElement f = list.get(0);
 		
 		int webelement = list.size(); // total no of WebElement present in collection
 		

@@ -22,7 +22,7 @@ public class MouseAction {
 		
 		WebElement order = driver.findElement(By.xpath("//span[text() = 'Your Orders']"));
 		
-		JavascriptExecutor js = (JavascriptExecutor)driver;
+		JavascriptExecutor js  = (JavascriptExecutor)driver;
 		
 		js.executeScript("window.scrollBy(0,1800)"); // scroll down
 		Thread.sleep(3000);
@@ -30,12 +30,12 @@ public class MouseAction {
 		// js.executeScript("window.scrollBy(1800,0)");  // scroll right
 		// js.executeScript("window.scrollBy(-1800,0)");  // scroll left
 		
-		//Actions a = new Actions(driver);
+		Actions a = new Actions(driver);
 		
 	//	a.moveToElement(as).perform();
 	//	a.moveToElement(order).click().build().perform();
 		
-		//a.moveToElement(as).moveToElement(order).click().build().perform();
+		a.moveToElement(as).moveToElement(order).click().build().perform();
 		
 		//a.click(); // Left click
 		//a.doubleClick(); // Left double click

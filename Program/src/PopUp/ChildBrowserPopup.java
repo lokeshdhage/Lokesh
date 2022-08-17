@@ -24,7 +24,7 @@ public class ChildBrowserPopup {
 		// how to handle child browser popup
 		ArrayList<String> ad = new ArrayList<String>( driver.getWindowHandles() );
 		driver.switchTo().window( ad.get(1) ); // selenim focus switch to child browser/tab
-		//System.out.println( driver.getCurrentUrl() );
+		System.out.println( driver.getCurrentUrl() );
 		
 		WebElement create = driver.findElement(By.xpath("(//a[contains(@class , 'w3-button w3-bar')])[6]"));
 		create.click();

@@ -34,8 +34,7 @@ public class iframe {
 		tryit.click(); 
 		
 //		driver.switchTo().defaultContent(); // agian switch to mainpage or mainframe
-//		driver.switchTo().parentFrame();    // again switch to mainpage or mainframe
-		
+//		driver.switchTo().parentFrame();    // again switch to parent iframe
 		
 		
 

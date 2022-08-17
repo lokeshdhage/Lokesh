@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AlertPopUp {
 	
-	public static void main(String [] args)
+	public static void main(String [] args) throws InterruptedException
 	{
 		System.setProperty("webdriver.chrome.driver" , "C:\\Users\\rocks\\Downloads\\chromedriver.exe");
 		
@@ -24,6 +24,7 @@ public class AlertPopUp {
 //	    String text = al.getText();
 //	    System.out.println(text);
 	    al.accept(); // to click on OK, YES, Continue, Accept. Submit
+	    
 	     
 	    Alert al1 = driver.switchTo().alert();
 	    al1.accept();
